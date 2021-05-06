@@ -37,6 +37,10 @@ sudo chmod +x /usr/local/bin/chromedriver
 ## CURL Tests
 ```bash
 curl -o file.pdf nasa.gov/file.pdf
+curl -u anonymous:filip ftp://speedtest.tele2.net
+curl -T or.txt ftp://speedtest.tele2.net/upload/or.txt
+```
+
+```bash
 curl nasa.gov > file.html
-curl -T mail.txt ftp.dlptest.com/1/2021 
 ```
